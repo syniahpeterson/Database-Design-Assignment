@@ -1,0 +1,9 @@
+To migrate to v2 of the database:
+
+V2 -1 - Multiple Playlists:
+
+  As far as the ERD I would change the relationship between users and playlist to be a one-to-many and I would add a num_playlist attribute to the user entity. In the database I would add a column in the user table for the number of playlist each user has.
+
+V2 -2 - Multiple Account Types:
+
+  As far as the ERD I would add acct_type as an attribute for the user entity. In the database I would acct_type as a column in the user table.
